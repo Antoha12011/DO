@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 class ViewController: UIViewController, UITableViewDataSource {
     
     private let table: UITableView = {
