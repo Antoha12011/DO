@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource {
     
+    
     private let table: UITableView = {
         let table = UITableView()
         table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
